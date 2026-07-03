@@ -1,0 +1,79 @@
+#images {
+  text-align: center;
+  margin: 10px;
+}
+
+/* to center the logo image */
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* this centers the nav horizontally */
+.nav-menu {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: gray;
+}
+
+.nav-menu a:hover {
+  color: #cc3f4f;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* this changes the color of the links if user hovers over them */
+.social-media a {
+  text-decoration: none;
+  color: gray;
+}
+
+.social-media a:hover {
+  color: #cc3f4f;
+}
+
+body {
+  background-color: #ffe5f4;
+}
+
+h1 {
+  color: #e6a0ba;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  color: #e0728d;
+  font-family: monospace;
+  font-size: 35px;
+}
+
+h3 {
+  color: #cc3f4f;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  padding: 10px;
+}
